@@ -1,0 +1,252 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+.Fixed{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    border-bottom: 3px solid black;
+    display: inline-block;
+    vertical-align: middle;
+    z-index: 9999;
+    /* outline: none; */
+}
+.connectLeftSide{
+    float: left;
+    background-color: black;
+    width: 100px; 
+    margin-right: 50px;
+    box-shadow: 1px 0 2px 1px black;
+    border-color: black;
+    }
+.clear{
+clear: both;
+}
+#WhoWeAre{
+  background-color: black;
+  border: none;
+    outline: none;
+  height: 90px;
+  color: white;
+  font-size: large;
+}
+#WorkWith{
+    background-color: black;
+    height: 90px;
+    color: white;
+    font-size: large;
+    border: none;
+    outline: none;
+  }
+  
+option{
+    color: white;
+    font-size: large;
+}
+.connectRightSide{
+    float: right;
+    background-color: black;
+    width: 100px; 
+    margin-left: 90px;
+    margin-top: 30;
+    border-radius: 30%; 
+}
+#signinbtn{
+    color: black;
+    background-color:#DC143C;
+    width: 90;
+    height: 32;
+    font-size: medium;
+    border-radius: 12px;
+    position: absolute; 
+    text-align: center;
+    margin-right: 20px;
+    text-decoration: none;
+}
+#searchBar{
+    border-radius: 12px;
+    height: 32px;
+    background-color: #505050;
+}
+.firstSec{
+    width: 100%;
+    height: 600px;
+    background-image: url("./background\ div1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 93px;
+    left: 0px;
+}
+
+#Watchbtn{
+    color: white;
+    background-color:#00bfff;
+    width: 200;
+    height: 50;
+    font-size: medium;
+    border-radius: 20px;
+    position: absolute; 
+    text-align: center;
+    margin-right: 20px;
+    text-decoration: none;
+    margin-left: 50;
+}
+#Watchbtn:hover{
+    cursor:pointer;
+}
+select:hover{
+cursor: pointer;
+}
+#Newsbtn{
+    color: white; 
+    background-color:black; 
+    width: 60; 
+    height: 80;
+     font-size: large;
+}
+#Newsbtn:hover{
+    cursor: pointer;
+}
+.SecondSec{
+    width: 100%;
+    height: 650px;
+    background-color: black;
+    left: 0px;
+}
+
+body{
+    
+    background-color: black;
+     /* overflow: scroll;  */
+}
+#SeeMore{
+    color: white;
+    background-color:#505050;
+    width: 150;
+    height: 50;
+    font-size: medium;
+    border-radius: 20px;
+    position: absolute; 
+    text-align: center;
+}
+#SeeMore:hover{
+    cursor: pointer;
+}
+.connectRightSidesec{
+    float: right;
+    background-color: black;
+    width: 100px; 
+    margin-top: 10px;
+    margin-left: 90px;
+    border-radius: 30%;
+    margin-right: 80px;
+}
+.connectRightSidepics{
+    float: right;
+    background-color: black;
+    width: 100px; 
+    margin-top: 10px;
+    margin-left: 90px;
+    border-radius: 30%;
+    margin-right: 395px;
+}
+.connectRightSidepics img:hover{
+    cursor: pointer;
+}
+#hov:hover{
+    cursor: pointer;
+}
+.ThirdSec{
+width: 100%;
+height: 1200px;
+background-color: #505050;
+left: 0px;
+}
+.connectLeftSideGames{
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.fourthSec{
+width: 100%;
+height: 550px;
+background-color: black;
+left: 0px;
+}
+#leftcontent{
+background-color: white;
+ width: 50%;
+ height: 550px;
+ text-align: center;
+ float: left;
+}
+#Statics{
+    color: black;
+    background-color:lightgrey;
+    width: 150px;
+    height: 150px;
+    font-size: large;
+    border-radius: 20px; 
+    text-align: center;
+    /* margin-right: 350px; */
+    display: inline-block;
+}
+#Statics:hover{
+    cursor: pointer;
+}
+#Explore{
+    color: white;
+    background-color:#DC143C;
+    width: 200;
+    height: 50;
+    font-size: medium;
+    border-radius: 20px; 
+    text-align: center;
+    margin-right: 20px;
+    text-decoration: none;
+    margin-top: 30px;
+}
+#Explore:hover{
+    cursor: pointer;
+}
+.fifthSec{
+width: 100%;
+height: 250px;
+background-color: #252423;
+left: 0px;
+}
+.fifthSec span{
+    margin: 30px 0px 0px 30px;
+    display: inline-block;
+}
+.fifthSec a{
+    text-decoration: none;
+    color: #8a8887;
+     font-size: 17px;
+     
+}
+.fifthSec a:hover{
+    text-decoration: underline;
+    color: white;
+}
+#logo{
+    color: #8a8887;
+}
+#logo:hover{
+    color: red;
+    cursor: pointer;
+
+}
+.fifthSec p{
+    text-decoration: none;
+    color: #8a8887;
+     font-size: 17px;
+     
+}
+#strt:hover{
+    color: white;
+}
